@@ -1,6 +1,3 @@
-/*se define la interactividad del sitio privado */
-
-
 const sideMenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
@@ -28,9 +25,9 @@ closeBtn.addEventListener("click", ()=>{
 
 
 
-btnCerrarModal.addEventListener("click", ()=>{
-    modal.close();
-});
+//btnCerrarModal.addEventListener("click", ()=>{
+   // modal.close();
+//});
 
 
 
